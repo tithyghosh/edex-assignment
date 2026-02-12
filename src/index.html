@@ -18,7 +18,7 @@
 <body class="public-sans-font">
    <header class="bg-[#6176F7]">
       <!-- Navbar Section -->
-      <nav class="mx-12">
+      <nav class=" mx-5 lg:mx-20 ">
       <div class="navbar">
       <div class="navbar-start">
        <div class="dropdown">
@@ -27,7 +27,7 @@
       </div>
       <ul
         tabindex="-1"
-        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow text-white">
         <li><a>Home</a></li>
         <li><a>About</a></li>
         <li><a>Course</a></li>
@@ -35,10 +35,10 @@
         <li><a>Contact</a></li>
       </ul>
     </div>
-    <a class="text-xl italic font-serif font-extrabold">eDex</a>
+    <a class="text-xl italic font-serif font-extrabold text-white">eDex</a>
   </div>
   <div class="navbar-center hidden lg:flex">
-    <ul class="menu menu-horizontal px-1">
+    <ul class="menu menu-horizontal px-1 text-white">
       <li><a>Home</a></li>
       <li><a>About</a></li>
       <li><a>Course</a></li>
@@ -49,15 +49,15 @@
    <div class="navbar-end flex items-center gap-1 lg:gap-2">
     <a class="hidden lg:flex items-center gap-1 text-sm">
       <i class="fa-solid fa-lock"></i>
-      <span>Log in</span>
+      <span class="text-white">Log in</span>
     </a>
     <a class="btn bg-amber-400 rounded-full text-white">Sign Up for Free</a>
   </div>
    </div>
       </nav>
       <!-- Banner section -->
-      <section class="mx-12 lg:mx-24 my-12">
-        <div class="mx-auto flex max-w-6xl flex-col items-center gap-10 lg:flex-row lg:items-end lg:justify-between">
+      <section class="mx-12 lg:mx-24 mt-12">
+        <div class="mx-auto flex max-w-6xl flex-col-reverse items-center gap-10 lg:flex-row lg:items-end lg:justify-between">
           <div class="w-full max-w-xl text-white">
             <p class="mb-4 text-sm font-semibold tracking-wide text-amber-300">START TO SUCCESS</p>
             <h1 class="mb-5 text-4xl font-bold leading-tight lg:text-6xl">Access To 5000+ Courses from 300 Instructors &amp; Institutions</h1>
@@ -77,9 +77,9 @@
    </header>
    <main>
       <!-- About Section -->
-       <section class="w-full bg-[#F1F2F8] py-10 mb-24">
+       <section class="w-full bg-[#F1F2F8] py-20">
          <!-- Card Container -->
-         <div class="mx-6 grid grid-cols-2 gap-10 lg:mx-24 lg:grid-cols-4">
+         <div class="mx-14 grid grid-cols-1 gap-10 lg:mx-24 lg:grid-cols-4">
             <!-- First Card -->
              <div class="flex items-center gap-4">
             <div class="grid h-8 w-8 place-items-center rounded-full bg-[#20B486]">
@@ -103,7 +103,7 @@
          <!-- Third Card -->
           <div class="flex items-center gap-4">
             <div class="grid h-8 w-8 place-items-center rounded-full bg-[#EE455A]">
-               <i class="fa-solid fa-vedio text-xs leading-none text-white"></i>
+               <i class="fa-solid fa-camera text-xs leading-none text-white"></i>
             </div>
             <div>
                <h3 class="font-semibold text-3xl">10,000+</h3>
@@ -123,7 +123,7 @@
          </div>
        </section>
        <!-- Popular Course -->
-        <section class="mx-12 lg:mx-24">
+        <section class="mx-12 lg:mx-24 pt-12 lg:pt-24">
          <div class="mb-10">
             <h3 class="font-semibold text-6xl mb-5">
                Most
@@ -400,15 +400,15 @@
                   platform today
                 </h1>
                 <p class="py-6 text-2xl text-[#52565C]">Start learning by registering for free</p>
-                <small class="text-lg text-[#6D737A]">Ut pharetra ipsum nec leo blandit, sit amet tincidunt eros pharetra. Nam sed imperdiet turpis. In hac habitasse platea dictumst. Praesent nulla massa, hendrerit vestibulum gravida in, feugiat auctor felis.</small>
-                <button class="btn  bg-linear-to-r from-[#FFC27A] to-[#FFA337] rounded-full text-white my-8">Sign Up for free</button>
+                <small class="block text-lg text-[#6D737A]">Ut pharetra ipsum nec leo blandit, sit amet tincidunt eros pharetra. Nam sed imperdiet turpis. In hac habitasse platea dictumst. Praesent nulla massa, hendrerit vestibulum gravida in, feugiat auctor felis.</small>
+                <button class="btn bg-linear-to-r from-[rgb(255,194,122)] to-[#FFA337] rounded-full text-white mt-6 lg:mt-8">Sign Up for free</button>
     </div>
   </div>
 </div>
            </section>
 
            </main>
-           <footer class="footer sm:footer-horizontal bg-[#21212F] text-base-content p-10 text-white">
+           <footer class="footer sm:footer-horizontal bg-[#21212F] text-base-content py-5 px-10 lg:py-10 lg:px-24 text-white">
           <nav>
           <h6 class="font-bold font-serif italic text-5xl"><span class="text-amber-500">e</span>Dex</h6>
           <a class="link link-hover">Contact Us</a>
@@ -422,7 +422,7 @@
           </div>
          </nav>
        <nav>
-       <h6 class="footer-title text-2xl">Explore</h6>
+       <h6 class="footer-title">Explore</h6>
       <a class="link link-hover">Home</a>
       <a class="link link-hover">About</a>
       <a class="link link-hover">Course</a>
